@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/all.min.css">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <script src="./public/js/java.js"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="top-header">
+        <div class="nav-header">
+            <!-- Chua logo và menu -->
+            <div class="logo">
+                <a href="#"><img src="./public/img/logo.jpg" alt="logo" class="img-fluid pd-lr"></a>
+                <div class="icon">
+                    <div class="a-i-hover">
+                        <a href="#" class="color-icon" onclick="openNav()"><i
+                                class="far fa-bars color-icon"></i>menu</a>
+                    </div>
+                </div>
+            </div>
+            <!-- tạo menu động khi click vào menu -->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="icon-right pd-lr">
+                <a href="#"><i class="far fa-search"></i></a>
+                <a href="#"><i class="fas fa-users"></i></a>
+                <a href="#"><i class="far fa-cart-arrow-down"></i></a>
+            </div>
+        </div>
+        <div class="mb-nav-header">
+            <div class="logo">
+                <a href="#"><img src="./public/img/logo.jpg" alt="logo" class="img-fluid pd-lr"></a>
+
+            </div>
+            <div class="mb-downlogo">
+                <div class="icon">
+                    <a href="#" class="color-icon" onclick="openNav()"><i class="far fa-bars color-icon"></i></a>
+                </div>
+
+                <div class="icon-right pd-lr">
+                    <a href="#"><i class="far fa-search"></i></a>
+                    <a href="#"><i class="fas fa-users"></i></a>
+                    <a href="#"><i class="far fa-cart-arrow-down"></i></a>
+                </div>
+
+            </div>
+            <div id="mySidenav1" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="mb-bg">
+            <div class="container">
+                <div class="title">
+                    <div class="title1 text">
+                        GRA—NIT <br>
+                        CLOCK
+                    </div>
+                    <div class="title2 text">
+                        <span> minimalist. creative. flexible<br></span>
+                    </div>
+                    <div class="title3 text">
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+                <div class="price">
+                    <span class="price1">PRICE</span><br>
+                    <span class="price2">$239.00</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Baner -->
+    <div class="baner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="bg-2 text">
+                        <p class="bg-21">#LIVING</p>
+                        <span class="bg-22 bg-222">The Sweepers</span><br>
+                        <p class="bg-23 bg-222">and Funel</p>
+                        <a href="#" class="bg-24">Shop Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-3 text">
+                        <p class="bg-21">#LIVING</p>
+                        <span class="bg-22 bg-222">Vega Table</span><br>
+                        <p class="bg-23 bg-222">Lamp</p>
+                        <a href="#" class="bg-24">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="trending">
+        <h4 class="trending1">Trending This Week</h4>
+        <div class="trending2">
+            Find a bright ideal to suit your taste with our great selection of suspension, wall, floor and table lights.
+        </div>
+    </div>
+    <!-- Sản phẩm -->
+    <div class="item">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-6">
+                    <div class="item1" onmouseover="trochuot()" onmouseout="outimg()">
+                        <div class="news text1">
+                            <a href="#">NEW</a>
+                        </div>
+                        <div class="percent text1">
+                            <span class="percent1">10%</span>
+                        </div>
+                        <div class="img-hv">
+                            <img src="./public/img/4.jpg" id="tro" alt="" class="img-fluid">
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#"><i class="far fa-search bg-icon"></i></a>
+                            <a href="#"><i class="far fa-shopping-cart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-heart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-sync bg-icon"></i></a>
+                        </div>
+                        <div class="name">
+                            <a href="#" class="name1 hover1">Teapot</a><br>
+                            <span class="name2"><del>$23.90</del></span>&nbsp;
+                            <span class="name3">$21.51</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="item1" onmouseover="trochuot1()" onmouseout="outimg1()">
+                        <div class="news text1">
+                            <a href="#">NEW</a><br>
+                            <a href="#" style="text-decoration: none; color: #8F8F8F;">PACK</a>
+                        </div>
+                        <div class="percent text1">
+                            <span class="percent1">20%</span>
+                        </div>
+                        <div class="img-hv">
+                            <img src="./public/img/5.jpg" id="tro1" alt="" class="img-fluid">
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#"><i class="far fa-search bg-icon"></i></a>
+                            <a href="#"><i class="far fa-shopping-cart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-heart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-sync bg-icon"></i></a>
+                        </div>
+                        <div class="name">
+                            <a href="#" class="name1 hover1">Miro Dining Table</a><br>
+                            <span class="name2"><del>$35.90</del></span>&nbsp;
+                            <span class="name3">$28.72</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="item1" onmouseover="trochuot2()" onmouseout="outimg2()">
+                        <div class="news text1">
+                            <a href="#">NEW</a>
+                        </div>
+                        <div class="img-hv">
+                            <img src="./public/img/6.jpg" id="tro2" alt="" class="img-fluid">
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#"><i class="far fa-search bg-icon"></i></a>
+                            <a href="#"><i class="far fa-shopping-cart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-heart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-sync bg-icon"></i></a>
+                        </div>
+                        <div class="name">
+                            <a href="#" class="name1 hover1">Teapot</a><br>
+                            <span class="name2">$29.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="item1" onmouseover="trochuot3()" onmouseout="outimg3()">
+                        <div class="news text1">
+                            <a href="#">NEW</a>
+                        </div>
+                        <div class="img-hv">
+                            <img src="./public/img/7.jpg" id="tro3" alt="" class="img-fluid">
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#"><i class="far fa-search bg-icon"></i></a>
+                            <a href="#"><i class="far fa-shopping-cart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-heart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-sync bg-icon"></i></a>
+                        </div>
+                        <div class="name">
+                            <a href="#" class="name1 hover1">Discus Floor and Table</a><br>
+                            <span class="name3">$29.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="item1" onmouseover="trochuot4()" onmouseout="outimg4()">
+                        <div class="news text1">
+                            <a href="#">NEW</a>
+                        </div>
+                        <div class="img-hv">
+                            <img src="./public/img/8.jpg" id="tro4" alt="" class="img-fluid">
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#"><i class="far fa-search bg-icon"></i></a>
+                            <a href="#"><i class="far fa-shopping-cart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-heart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-sync bg-icon"></i></a>
+                        </div>
+                        <div class="name">
+                            <a href="#" class="name1 hover1">UNA Chair</a><br>
+                            <span class="name3">$29.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="item1" onmouseover="trochuot5()" onmouseout="outimg5()">
+                        <div class="news text1">
+                            <a href="#">NEW</a>
+                        </div>
+                        <div class="img-hv">
+                            <img src="./public/img/9.jpg" id="tro5" alt="" class="img-fluid">
+                        </div>
+                        <div class="icon-hover">
+                            <a href="#"><i class="far fa-search bg-icon"></i></a>
+                            <a href="#"><i class="far fa-shopping-cart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-heart bg-icon"></i></a>
+                            <a href="#"><i class="fal fa-sync bg-icon"></i></a>
+                        </div>
+                        <div class="item1" onmouseover="trochuot5()" onmouseout="outimg5()">
+                            <div class="name">
+                                <a href="#" class="name1 hover1">Studio Chair</a><br>
+                                <span class="name3">$11.90</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="shopnow">
+            <a href="#">+ SHOP MORE</a>
+        </div>
+    </div>
+    <div class="calio text-center">
+        <h2>Calio Bird Chair</h2>
+        <p>Find a bright ideal to suit your taste with our great selection of suspension.</p>
+        <a href="#">Shop now</a>
+    </div>
+    <!-- Blog -->
+    <div class="blogs">
+        <div class="container">
+            <div class="br-bottom">
+                <div class="blog1 text-center">
+                    <h4>Our Blogs</h4>
+                    <p>Find a bright ideal to suit your taste with our great selection</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="block-blog">
+                            <div class="img-blogs">
+                                <img src="./public/img/11.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="text-blogs">
+                                <h5><a href="#"></a>Nullam ullamcorper n..</h5>
+                                <span> <a href="#" class="text-blogs1">Sub Category 1 /</a></span>
+                                <span style="color:#666;">16 Aug, 2019</span>
+                                <p>Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet
+                                    dictum ligula lorem non nis diam in bibendum..</p>
+                                <a href="#" class="btn-readmore text-blogs2">+READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="block-blog">
+                            <div class="img-blogs">
+                                <img src="./public/img/12.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="text-blogs">
+                                <h5><a href="#"></a>Turpis at eleifend leo m..</h5>
+                                <span> <a href="#" class="text-blogs1">Sub Category 1 /</a></span>
+                                <span style="color:#666;">16 Aug, 2019</span>
+                                <p>
+                                    Turpis at eleifend leo Aliquam at lacus interdum mi elit Aenean porta ac sed
+                                    faucibus.
+                                    Nunc urna Morbi fringilla
+                                    vitae orci convallis...
+                                </p>
+                                <a href="#" class="btn-readmore text-blogs2">+READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="block-blog">
+                            <div class="img-blogs">
+                                <img src="./public/img/13.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="text-blogs">
+                                <h5><a href="#"></a>Morbi condimentum..</h5>
+                                <span> <a href="#" class="text-blogs1">Sub Category 1 /</a></span>
+                                <span style="color:#666;">16 Aug, 2019</span>
+                                <p>
+                                    Sed mauris Pellentesque elit Aliquam at lacus interdum nascetur elit ipsum. Enim
+                                    ipsum
+                                    hendrerit Suspendisse turpis lorem...
+                                </p>
+                                <a href="#" class="btn-readmore text-blogs2">+READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="icon-bg">
+        <div class="container">
+            <div class="icon-bg1">
+                <a href="#"><img src="./public/img/icon1.jpg" class="opacity-img" alt=""></a>
+                <a href="#"><img src="./public/img/icon2.jpg" class="opacity-img" alt=""></a>
+                <a href="#"><img src="./public/img/icon3.jpg" class="opacity-img" alt=""></a>
+                <a href="#"><img src="./public/img/icon4.jpg" class="opacity-img" alt=""></a>
+                <a href="#"><img src="./public/img/icon5.jpg" class="opacity-img" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- Tao button Và Submit -->
+    <div class="bg-tt text-center">
+        <h3>Newsletter signup</h3>
+        <p>Stay Updated on all that's new add noteworthy</p>
+        <div>
+            <input name="email" type="text" placeholder="Your email..." class="mr-button">
+            <button class="mr-button1 bg-buy">
+                <span>SUBSCRIBE</span>
+            </button>
+            <input type="hidden" name="action">
+        </div>
+    </div>
+    <!-- mô tả -->
+    <div class="destructions">
+        <div class="container">
+            <div class="description">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="#"><img src="./public/img/logo.jpg" alt="" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <nav class="navbar navbar-expand-sm">
+                            <!-- <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                </button> -->
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link hover" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hover" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hover" href="#">FAQs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hover" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mb-destructions">
+        <div class="container">
+            <div class="description">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="center">
+                            <a href="#"><img src="./public/img/logo.jpg" alt="" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <nav class="navbar navbar-expand-sm">
+                            <!-- <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                </button> -->
+                            <ul class="navbar-nav m-auto mt-2 mt-lg-0 ">
+                                <li class="nav-item active">
+                                    <a class="nav-link hover" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hover" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hover" href="#">FAQs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link hover" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="descriptione1">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>2593 Timbercrest Road, Chisana, Alaska Badalas<br>United State </p>
+                </div>
+                <div class="col-md-3">
+                    <p>(+91)7-723-4608</p>
+                    <a href="#" class="descriptione2 hover shadow-link">Demo@demo.com</a>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-3">
+                    <div class="d-center">
+                        <a href="#"><i class="fab fa-facebook-f hover"></i></a>
+                        <a href="#"><i class="fab fa-twitter hover"></i></a>
+                        <a href="#"><i class="fab fa-youtube hover"></i></a>
+                        <a href="#"><i class="fab fa-pinterest hover"></i></a>
+                        <a href="#"> <i class="fab fa-instagram hover"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tạo trên moble -->
+    <div class="mb-descriptione1">
+        <div class="row">
+            <div class="col-md-4">
+                <p style="text-align: center;">2593 Timbercrest Road, Chisana, Alaska Badalas<br>United State </p>
+            </div>
+            <div class="col-md-3">
+                <p style="text-align: center;">(+91)7-723-4608</p>
+                <div class="center">
+                    <a href="#" class="descriptione2 hover shadow-link">Demo@demo.com</a>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-3">
+                <div class="d-center">
+                    <a href="#"><i class="fab fa-facebook-f hover"></i></a>
+                    <a href="#"><i class="fab fa-twitter hover"></i></a>
+                    <a href="#"><i class="fab fa-youtube hover"></i></a>
+                    <a href="#"><i class="fab fa-pinterest hover"></i></a>
+                    <a href="#"> <i class="fab fa-instagram hover"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Icon position -->
+    <div class="pos">
+        <a href="#" class="a-icon1"><i class="fas fa-cart-plus"></i></a>
+        <a href="#" class="a-icon2"><i class="fas fa-arrow-alt-circle-left fa-rotate-90"></i></a>
+    </div>
+    <div class="pos-right">
+        <a href="#" class="a-icon5"><i class="fa fa-cog"></i></a>
+        <a href="#" class="a-icon4"><i class="fas fa-sliders-h"></i></a>
+        <a href="#" class="a-icon3"><i class="fa fa-adjust"></i></a>
+    </div>
+    <footer>
+        <div class="container">
+            Copyright © 2019 <b>Auros.</b> All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
